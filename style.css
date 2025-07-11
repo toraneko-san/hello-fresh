@@ -7,3 +7,38 @@
 body {
   background-color: rgb(250, 248, 243);
 }
+
+#topofthepage {
+
+    flex-flow: wrap;
+    height: 56px;
+
+;
+    list-style: none;
+
+text-align: center;
+position: fixed;
+}
+
+.head {
+
+ font-family: roboto;
+ font-size: 16px; 
+}
+
+.login {
+  
+border: 1px solid black;
+
+  font-family: roboto;
+  font-size: 16px; 
+  font-weight: bold;
+  border-radius: 8px;
+
+  background-color: rgb(200, 200, 200);
+  
+}
+
+ul {
+  display: inline;
+}

@@ -70,3 +70,43 @@ body {
   cursor: wait;
   user-select: none;
 }
+
+.REM32bold{
+  font-family: REM;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.roboto14{
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.tarefa8{
+  background-color: rgb(247, 247, 247);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(193, 193, 193);
+}
+
+#Email{
+  width: 100%;
+  padding:10px 20px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 6px;
+}
+
+#botao{
+cursor: not-allowed;
+width: 100%;
+height: 100%;
+background-color: rgb(173, 173, 173);
+font-family: roboto;
+font-size: 20px;
+font-weight: bold;
+color: white;
+border: transparent;
+border-radius: 6px;
+padding: 0px 20px;
+}

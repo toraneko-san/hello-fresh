@@ -10,35 +10,36 @@ body {
 
 #topofthepage {
 
-    flex-flow: wrap;
-    height: 56px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /*esse negócio parece complicado de entender, por isso tô testando ainda*/
 
-;
-    list-style: none;
-
-text-align: center;
-position: fixed;
 }
 
-.head {
+.head-nav-list {
 
- font-family: roboto;
- font-size: 16px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-family: roboto;
+  font-size: 16px; 
+
+}
+
+.logo {
+
+  height: 30px;
+
 }
 
 .login {
   
-border: 1px solid black;
-
-  font-family: roboto;
-  font-size: 16px; 
+  border: 1px solid black;
   font-weight: bold;
   border-radius: 8px;
 
   background-color: rgb(200, 200, 200);
-  
-}
-
-ul {
-  display: inline;
+  cursor: grab;
 }

@@ -8,38 +8,65 @@ body {
   background-color: rgb(250, 248, 243);
 }
 
-#topofthepage {
+#top-of-the-page {
 
+  background-color: white; 
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /*esse negócio parece complicado de entender, por isso tô testando ainda*/
-
+  z-index: 1000; /*esse negócio parece complicado de entender, por isso tô testando ainda; parece que funcionou*/
 }
 
 .head-nav-list {
 
+  max-width: 1200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   list-style: none;
   font-family: roboto;
-  font-size: 16px; 
-
+  font-size: 16px; /* meu deus precisa de mais coisa*/
+  margin: 0 auto;
+  padding: 0 50px;
+  height: 60px; /* agora funciona melhor */
 }
 
 .logo {
 
-  height: 30px;
+  height: 45%; 
+  cursor: grab;
+}
 
+.logo:active {
+
+  cursor: grabbing;
+} 
+
+.head-items{
+
+  margin: 0 0 0 10px;
+  cursor: pointer;
 }
 
 .login {
   
+  margin: 0 0 0 120px;
   border: 1px solid black;
   font-weight: bold;
-  border-radius: 8px;
+  font-size: 16px;
+  border-radius: 7px;
+  padding: 4.5px 5px;
+  cursor: pointer;
+}
+
+.login:hover {
 
   background-color: rgb(200, 200, 200);
-  cursor: grab;
+}
+
+.login:active {
+
+  cursor: wait;
+  user-select: none;
 }
